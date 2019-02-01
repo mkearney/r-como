@@ -1,0 +1,179 @@
+baseURL = "http://r-como.xyz/"
+languageCode = "en-us"
+title = "R-CoMo"
+theme = "hugo-fresh"
+enableRobotsTXT = true
+pygmentsuseclasses = true
+PygmentsCodeFences = true
+canonifyurls = true
+publishDir = "docs"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+
+  [params.font]
+  name = "Open Sans"
+  sizes = [
+    400.0,
+    600.0
+  ]
+
+  [params.hero]
+  title = "R User Group Columbia, MO"
+  subtitle = "Connecting #rstats users"
+  buttontext = "Get started"
+  buttonlink = "#"
+  image = "illustrations/worker.svg"
+  clientlogos = [
+    "systek",
+    "tribe",
+    "kromo",
+    "infinite",
+    "gutwork"
+  ]
+
+
+  [params.section1]
+  title = "Information"
+  subtitle = "about R User Group Columbia, MO"
+
+    [[params.section1.tiles]]
+    title = "R Consortium"
+    icon = "mouse-globe"
+    text = "Support for community of R software users"
+    url = "https://www.r-consortium.org/projects/r-user-group-support-program"
+    buttonText = "r-consortium.org"
+
+    [[params.section1.tiles]]
+    title = "Github"
+    icon = "laptop-cloud"
+    text = "Repository of materials and source code"
+    url = "/"
+    buttonText = "@r-como"
+
+    [[params.section1.tiles]]
+    title = "Contact us"
+    icon = "plug-cloud"
+    text = "Contact us or find us on Twitter"
+    url = "/"
+    buttonText = "@r-como"
+
+  [params.section2]
+  title = "You're here because you want the best"
+  subtitle = "And we know it"
+
+    [[params.section2.features]]
+    title = "Powerful and unified interface"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "laptop-globe"
+
+    [[params.section2.features]]
+    title = "Cross-device synchronisation"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "doc-sync"
+
+    [[params.section2.features]]
+    title = "Nomad system"
+    text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis."
+    icon = "mobile-feed"
+
+
+  [params.footer]
+  logo = "fresh-white-alt.svg"
+  bulmalogo = true
+
+    [[params.footer.socialmedia]]
+    link = "https://github.com/lucperkins/github-fresh"
+    icon = "github"
+
+    [[params.footer.socialmedia]]
+    link = "https://dribbble.com/#"
+    icon = "dribbble"
+
+    [[params.footer.socialmedia]]
+    link = "https://facebook.com/#"
+    icon = "facebook"
+
+    [[params.footer.socialmedia]]
+    link = "https://twitter.com/lucperkins"
+    icon = "twitter"
+
+    [[params.footer.socialmedia]]
+    link = "https://bitbucket.org/#"
+    icon = "bitbucket"
+
+    [[params.footer.product]]
+    text = "Discover features"
+    link = "/"
+
+    [[params.footer.product]]
+    text = "Why choose our product?"
+    link = "/"
+
+    [[params.footer.product]]
+    text = "Compare features"
+    link = "/"
+
+    [[params.footer.product]]
+    text = "Our roadmap"
+    link = "/"
+
+    [[params.footer.product]]
+    text = "Request features"
+    link = "/"
+
+    [[params.footer.docs]]
+    text = "Get started"
+    link = "/"
+
+    [[params.footer.docs]]
+    text = "User guides"
+    link = "/"
+
+    [[params.footer.docs]]
+    text = "Admin guide"
+    link = "/"
+
+    [[params.footer.docs]]
+    text = "Developers"
+    link = "/"
+
+    [[params.footer.blogroll]]
+    text = "Latest news"
+    link = "/"
+
+    [[params.footer.blogroll]]
+    text = "Tech articles"
+    link = "/"
+
+    [[params.footer.blogroll]]
+    text = "Video blog"
+    link = "/"
+
+  [[params.navbar]]
+  title = "About"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Events"
+  url = "/"
+
+  [[params.navbar]]
+  title = "Resources"
+
+    [[params.navbar.sublinks]]
+    title = "Install/Setup"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Data Science"
+    url = "/"
+
+    [[params.navbar.sublinks]]
+    title = "Open Source Guides"
+    url = "/"
+
+  [[params.navbar]]
+  title = "Sign up"
+  url = "/"
+  button = true
