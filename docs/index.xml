@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R-CoMo</title>
-    <link>http://r-como.xyz/</link>
+    <link>https://r-como.xyz/</link>
     <description>Recent content on R-CoMo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://r-como.xyz/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://r-como.xyz/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -1,4 +1,4 @@
-baseURL = "http://r-como.xyz/"
+baseURL = "https://r-como.xyz/"
 languageCode = "en-us"
 title = "R-CoMo"
 theme = "hugo-fresh"

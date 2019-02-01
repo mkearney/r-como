@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://r-como.xyz/categories/</loc>
+    <loc>https://r-como.xyz/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://r-como.xyz/</loc>
+    <loc>https://r-como.xyz/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://r-como.xyz/tags/</loc>
+    <loc>https://r-como.xyz/tags/</loc>
     <priority>0</priority>
   </url>
   
