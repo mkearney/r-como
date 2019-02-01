@@ -23,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   subtitle = "Connecting #rstats users"
   buttontext = "Get started"
   buttonlink = "#"
-  image = "illustrations/worker.svg"
+  image = "welcome_to_rstats.png"
   clientlogos = [
     "systek",
     "tribe",
